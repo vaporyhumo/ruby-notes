@@ -13,6 +13,7 @@ end
 # Every object has a singleton class, with no exeptions
 
 # -- Class
+# Every class has a list of included modules
 
 # to ask an objects class we use the (instance)method #class
 
@@ -61,3 +62,15 @@ puts "Module.superclass"
 arrow Module.superclass
 
 run "1 + 1"
+
+# -- Methods
+
+puts
+puts "===== Methods"
+puts
+
+# every method call has a receiver
+
+# -- Main
+#
+# -- Self
